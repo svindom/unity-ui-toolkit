@@ -1,0 +1,25 @@
+#Element {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.red_square {
+    background-color: rgb(255, 0, 0);
+    position: absolute;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    border-bottom-right-radius: 26px;
+    border-bottom-left-radius: 26px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 34px;
+    flex-shrink: 1;
+    flex-basis: 0;
+    align-items: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/SelectorsLesson/Test.uss?fileID=7433441132597879392&amp;guid=851dcb74ad713bb4f91ffdf8095f39fb&amp;type=3#Test" />
+    <ui:VisualElement style="flex-grow: 1; position: relative; justify-content: flex-start; align-self: flex-start; align-items: stretch;">
+        <ui:VisualElement name="Element1" class="red_square" style="flex-grow: 1; background-color: rgb(255, 0, 0); flex-direction: column; flex-wrap: wrap; top: 0; bottom: 646px; right: 1521px; left: 0;" />
+        <ui:VisualElement name="Element2" class="red_square" style="flex-grow: 1; background-color: rgb(255, 0, 0); flex-direction: column; flex-wrap: wrap; top: 329px; bottom: 468px; right: 646px; left: 1025px; position: absolute;" />
+        <ui:VisualElement name="Element3" class="red_square" style="flex-grow: 1; background-color: rgb(255, 0, 0); flex-direction: column; flex-wrap: wrap; top: 475px; bottom: 322px; right: 1159px; left: 512px;" />
+    </ui:VisualElement>
+</ui:UXML>
