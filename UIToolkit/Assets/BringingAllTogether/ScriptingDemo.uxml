@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/BringingAllTogether/ScriptingDemo.uss?fileID=7433441132597879392&amp;guid=72d305e99fbe22e42a784a771f1559e4&amp;type=3#ScriptingDemo" />
+    <ui:VisualElement name="Container" style="flex-grow: 1;">
+        <ui:Button text="Button" name="MyButton" style="padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; top: 114px; flex-shrink: initial; align-items: auto; align-self: center; font-size: 16px; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>

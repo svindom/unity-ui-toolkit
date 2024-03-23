@@ -1,0 +1,23 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Complex%20Selectors/Stylesheet.uss?fileID=7433441132597879392&amp;guid=86d642b462d381d42b490ea4869fe096&amp;type=3#Stylesheet" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="Left" style="flex-grow: initial; flex-shrink: initial; position: relative; background-color: rgb(171, 171, 171); width: 500px; height: 1000px; margin-top: 45px; margin-right: 45px; margin-bottom: 45px; margin-left: 45px;">
+            <ui:VisualElement style="flex-grow: initial; flex-shrink: initial; width: 250px; height: 250px; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px;" />
+            <ui:VisualElement style="flex-grow: initial; flex-shrink: initial; width: 250px; height: 250px; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px;" />
+            <ui:VisualElement name="Grand" style="flex-grow: initial; flex-shrink: initial; width: 250px; height: 250px; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px;">
+                <ui:VisualElement style="flex-grow: initial; flex-shrink: initial; width: 75px; height: 75px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;" />
+                <ui:VisualElement style="flex-grow: initial; flex-shrink: initial; width: 75px; height: 75px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Center" style="flex-grow: initial; flex-shrink: initial; position: relative; background-color: rgb(171, 171, 171); width: 500px; height: 1000px; margin-top: 45px; margin-right: 45px; margin-bottom: 45px; margin-left: 45px;">
+            <ui:Label text="Label" style="margin-top: 79px; margin-right: 24px; margin-bottom: 79px; margin-left: 24px; font-size: 78px; align-self: flex-start;" />
+            <ui:VisualElement name="VisualElement" style="flex-grow: initial; flex-shrink: initial; width: 250px; height: 250px; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px; background-color: rgb(99, 99, 99);" />
+            <ui:Button text="Button" style="margin-top: 100px; margin-right: 100px; margin-bottom: 100px; margin-left: 23px; width: 140px; background-color: rgb(53, 53, 53); color: rgb(255, 255, 255); font-size: 27px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 9px; border-top-right-radius: 9px; border-bottom-right-radius: 9px; border-bottom-left-radius: 9px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Right" style="flex-grow: initial; flex-shrink: initial; position: relative; background-color: rgb(171, 171, 171); width: 500px; height: 1000px; margin-top: 45px; margin-right: 45px; margin-bottom: 45px; margin-left: 45px;">
+            <ui:Label text="Label" style="margin-top: 79px; margin-right: 24px; margin-bottom: 79px; margin-left: 24px; font-size: 78px; align-self: flex-end;" />
+            <ui:VisualElement style="flex-grow: initial; flex-shrink: initial; width: 250px; height: 250px; margin-top: 25px; margin-right: 25px; margin-bottom: 25px; margin-left: 25px; background-color: rgb(99, 99, 99); align-self: flex-end;" />
+            <ui:Button text="Button" style="margin-top: 100px; margin-right: 23px; margin-bottom: 100px; margin-left: 23px; width: 140px; background-color: rgb(53, 53, 53); color: rgb(255, 255, 255); font-size: 27px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 9px; border-top-right-radius: 9px; border-bottom-right-radius: 9px; border-bottom-left-radius: 9px; align-self: flex-end;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
